@@ -29,7 +29,7 @@ export default class Coursecart extends Component {
                       <h6 className="mb-0 text-success">$ {node.price}</h6>
                     </div>
                     <p className="text-muted">
-                      <small>{node.description.description}</small>
+                      <small>{node.description}</small>
                     </p>
                     <button
                       data-item-id={node.id}
